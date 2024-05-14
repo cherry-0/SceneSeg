@@ -52,7 +52,7 @@ And the full feature extraction is updated in [movienet-tools](https://github.co
 ```sh
 cd pre
 python demodownload.py ## Download a YouTube video with pytube
-python ShotDetect/shotdetect.py --print_result --save_keyf --save_keyf_txt ## Cut shot 
+python ShotDetection/shotdetect.py --print_result --save_keyf --save_keyf_txt ## Cut shot 
 cd ../lgss
 python run.py config/demo.py ## Cut scene 
  ```
