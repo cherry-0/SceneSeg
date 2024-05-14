@@ -1,2 +1,4 @@
 tqdm
 mmcv-full
+tensorboardX
+scikit-learn
