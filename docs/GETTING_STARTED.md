@@ -45,7 +45,7 @@ And the full feature extraction is updated in [movienet-tools](https://github.co
 
 ### Demo
 #### Preparation
-- [pytube](https://github.com/nficano/pytube) is to download YouTube video. Install with ```pip install pytube3 --upgrade```
+- [pytube](https://github.com/nficano/pytube) is to download YouTube video. Install with ```pip install -U pytube```
 - FFMPEG is to cut scene video and it is usually installed by your OS
 
 #### Run
