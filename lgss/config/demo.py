@@ -11,12 +11,12 @@ please make sure there is no space in the name
 video_name = "demo"
 shot_num = 4  # even
 seq_len = 10  # even
-gpus = "0,1,2,3,4,5,6,7"
+gpus = "0"
 
 # dataset settings
 dataset = dict(
     name="demo",
-    mode=['image'],
+    mode=['image', 'place'],
 )
 # model settings
 model = dict(
@@ -39,7 +39,7 @@ loss = dict(weight=[0.5, 5])
 resume = None
 trainFlag = False
 testFlag = True
-batch_size = 16
+batch_size = 4
 epochs = 30
 logger = dict(log_interval=200, logs_dir="../run/{}".format(experiment_name))
 data_loader_kwargs = dict(num_workers=32, pin_memory=True, drop_last=False)

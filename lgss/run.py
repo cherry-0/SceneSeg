@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-from mmcv import Config
+from mmengine import Config
 from tensorboardX import SummaryWriter
 
 import src.models as models
