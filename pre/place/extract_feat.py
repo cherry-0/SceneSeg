@@ -230,7 +230,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    data_root = "data/demo"
+    data_root = "../data/demo"
     parser = argparse.ArgumentParser("Place feature using ResNet50 with ImageNet pretrain")
     parser.add_argument('--save-one-frame-feat', action="store_true")
     parser.add_argument('-b', '--batch-size', type=int, default=512)
